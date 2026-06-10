@@ -1,0 +1,9 @@
+1) El gen afectado y las coordenadas asociadas a la/s variante/s detectada/s según hg38.
+Respuesta en tabla_resultados_vep
+
+2) La nomenclatura de la variante en c. (indicando el número del transcrito del NCBI o de Ensembl), tipo de variante identificada (SNP, deleción, inserción o indel)
+y si el individuo es homocigoto, heterocigoto o hemicigoto. Además, debéis indicar la frecuencia alélica de las variantes en la población en general (según gnomAD y 
+Proyecto 1000 Genomas) y si se tratan de mutaciones o polimorfismos.
+
+3) Proteína que codifica dicho gen, ID de la proteína (según NCBI o Ensembl), la nomenclatura de la variante en p. (indicando el identificador de la proteína según 
+NCBI o Ensembl) y el efecto de la variante en la proteína (mutación sinónima, sin sentido, etc.).
