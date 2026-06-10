@@ -1,6 +1,16 @@
-Usando la web www.emsembl.org nos valemos de la herramienta Varian Effect Predictor para la búsqueda de variantes génicas de los archivos .vcf de los personajes Bart y Patty.
+Usando la web www.emsembl.org nos valemos de la herramienta Varian Effect Predictor para la búsqueda de variantes génicas de los archivos .vcf de los personajes Bart 
+y Patty.
 Seleccionamos la especie Homo sapiens con referencia de ensamblado hg38.
 Dejamos todos los parámetros que nos aparecen por defecto y además marcamos: 
   -Identifiers: HGVS.
   -Variants and frequency data: gnomAD (exomes) allele frequencies y gnomAD (genomes) allele frequencies.
 Obtenemos los resultados para cada vcf de cada personaje.
+
+Podemos observar los resultados de la herramienta VEP dentro de este repositorio en: resultados_vep. Dentro tenemos una carpeta para cada personaje Bart/Patty donde 
+podemos encontrar los resúmenes de resultados vep de cada uno de ellos.
+
+Además podemos ver las variantes de cada personaje en: respuestas_preguntas > tabla_resultado_vep. Hemos usado esta tabla para responder a la primera pregunta 
+(podemos acceder al conjunto de preguntas que se realizan en la actividad en: respuestas_preguntas > preguntas, donde hemos enumerado cada pregunta para organizar 
+mejor los resultados). 
+
+
