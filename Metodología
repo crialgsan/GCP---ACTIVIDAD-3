@@ -9,8 +9,11 @@ Obtenemos los resultados para cada vcf de cada personaje.
 Podemos observar los resultados de la herramienta VEP dentro de este repositorio en: resultados_vep. Dentro tenemos una carpeta para cada personaje Bart/Patty donde 
 podemos encontrar los resúmenes de resultados vep de cada uno de ellos.
 
-Además podemos ver las variantes de cada personaje en: respuestas_preguntas > tabla_resultado_vep. Hemos usado esta tabla para responder a la primera pregunta 
+Además podemos ver las variantes de cada individuo en: respuestas_preguntas > tabla_resultado_vep. Hemos usado esta tabla para responder a la primera pregunta 
 (podemos acceder al conjunto de preguntas que se realizan en la actividad en: respuestas_preguntas > preguntas, donde hemos enumerado cada pregunta para organizar 
 mejor los resultados). 
 
-
+Para responder a la seunda pregunta, también elaboramos una tabla (tabla_pregunta2) con los datos obtenidos en los archivos .vep de cada individuo. Encontraremos esta 
+tabla dentro de respuestas_preguntas.
+En los archivos .vep de cada individuo podemos observar que obtenemos muchos transcritos para la misma variable, así que seleccionaremos el que indica la columna 
+MANE_SELECT, ya que selecciona un único transcrito de referencia por gen, acordado entre Ensembl y RefSeq.
