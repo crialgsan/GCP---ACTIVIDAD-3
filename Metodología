@@ -21,3 +21,12 @@ Para completar la columna Genotipo: los archivos VCF no incluyen el campo GT de 
 Depth). En las variantes analizadas, la profundidad de lectura del alelo de referencia y del alelo alternativo fue aproximadamente equivalente, compatible con un 
 estado heterocigoto.
 
+*****COMPLETAR METODOLOGÍA FALTANTE*****
+
+Para identificar los dominios o regiones funcionales afectadas por las variantes missense, se consultó la base de datos UniProt y se utilizó la herramienta Feature
+Viewer:
+  - TP53 (P04637 · P53_HUMAN): se localizó la posición aminoacídica 72 correspondiente a la variante p.Pro72Leu. Esta posición se encuentra dentro de la región 
+  66–110, anotada por UniProt como "Interaction with WWOX".
+  - MED12 (Q93074 · MED12_HUMAN): se localizó la posición aminoacídica 210 correspondiente a la variante p.Ala210Val. Tras revisar las anotaciones del Feature Viewer, 
+  no se identificó ningún dominio ni región funcional anotada por UniProt que incluyera dicha posición.
+
