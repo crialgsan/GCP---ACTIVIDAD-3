@@ -1,4 +1,5 @@
 Falta la metodología de la tercera pregunta y de "Para las mutaciones de cambio de nucleótido, indica la predicción de la patogenicidad de la variante en la 
 proteína (SIFT y PolyPhen)" -> ARIADNA
 
-Continuar a partir del alinemaiento de secuencias ortólogas
+Continuar a partir del alinemaiento de secuencias ortólogas: he localizado los dominios (podeis ver los resultados en la metodologia) y me queda la parte de la 
+conservación con clustal omega
