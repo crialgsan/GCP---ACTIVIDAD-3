@@ -1,0 +1,13 @@
+Para usar Cryp-Skip necesitamos la secuencia que rodea a la posición donde se encuentra la variante (2396-1)
+Intrones: en minuscula
+Exones: en mayuscula
+Posición afectada: la ultima g del primer intron (justo antes del inicio del exon)
+
+Introducimos las dos secuencias en Cryp-Skip:
+>LEPR_WT
+gccttttacgtatttttctcctcagATCATTTTATCCCCATTGAGAAGTACCAGTTCAGTCTTTACCCAATATTTATGGAAGGAG
+TGGGAAAACCAAAGATAATTAATAGTTTCACTCAAGgtaaaaattataattttagtttcct
+
+>LEPR_MUT
+gccttttacgtatttttctcctcatATCATTTTATCCCCATTGAGAAGTACCAGTTCAGTCTTTACCCAATATTTATGGAAGGAG
+TGGGAAAACCAAAGATAATTAATAGTTTCACTCAAGgtaaaaattataattttagtttcct
