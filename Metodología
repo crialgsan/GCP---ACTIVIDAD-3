@@ -33,7 +33,7 @@ Viewer:
   - MED12 (Q93074 · MED12_HUMAN): se localizó la posición aminoacídica 210 correspondiente a la variante p.Ala210Val. Tras revisar las anotaciones del Feature Viewer, 
   no se identificó ningún dominio ni región funcional anotada por UniProt que incluyera dicha posición.
 
-A continuación vamos a realizar en alineamiento en Clustal Omega. Para ello necesitamos secuencias de la misma proteína en otras especies, para ello usamos Uniprot y 
+A continuación realizamos el alineamiento en Clustal Omega. Para ello necesitamos secuencias de la misma proteína en otras especies, para ello usamos Uniprot y 
 descargamos las secuencias FASTA canonicas de la proteína en cada especie. El el caso de la proteína P53 la encontramos en 5 especies distintas: humano, bovino. raton, 
 rata y pez cebra; En el caso de la proteína MED12 solo la encontramos en 3 especies distintas: humano, ratón y pez cebra. Introducimos todas las secuencias FASTA de las 
 distintas especies de una misma proteína en Clustal y obtenemos dos alineamientos uno por cada proteína. Por último interpretamos los resultados.
