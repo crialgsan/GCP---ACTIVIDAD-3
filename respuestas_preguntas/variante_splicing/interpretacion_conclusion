@@ -1,0 +1,6 @@
+Interpretación: En la secuencia normal, BDGP detecta un sitio aceptor de splicing con score alto (0.97), justo en el motivo AG del límite intrón-exón. En la 
+secuencia mutada c.2396-1G>T, ese sitio ya no es detectado por BDGP, lo que sugiere pérdida del sitio aceptor canónico.
+
+Conclusión para el informe: La variante LEPR c.2396-1G>T altera el nucleótido G del dinucleótido aceptor AG. El análisis con BDGP muestra que el sitio aceptor normal
+presenta un score alto (0.97), mientras que tras introducir la mutación el sitio desaparece. Por tanto, se predice una pérdida del sitio aceptor de splicing, lo que 
+podría provocar alteración del procesamiento del pre-mRNA, como salto del exón afectado o uso de un sitio aceptor críptico alternativo.
