@@ -28,7 +28,10 @@ Para las mutaciones intrónicas deberéis analizar con BDGP splicing los scores 
 otro alternativo y cuál. Valora si sería conveniente emplear otras herramientas computacionales de análisis de splicing tales como ESE Finder o Cryp-Skip. Consultad 
 en la base de datos de Uniprot los dominios de la proteína que creéis que se perderían y en base a esta información, determinad si la proteína resultante sería 
 funcional (en caso de ser estable).
-- Respuesta en respuestas_preguntas > variante_splicing > interpretacion.conclusion_BDGP y interpretacion.conclusion_CRYPSKIP
+- Respuesta en respuestas_preguntas > variante_splicing >: 
+    - BDPG > interpretacion.conclusion_BDGP
+    - CRYPSKIP > interpretacion.conclusion_CRYPSKIP
+    - UNIPROT > interpretacion_UNIPROT
 
 4) Para cualquier tipo de mutación, consultad en la base de datos OMIM si existe una asociación de las variantes detectadas con una patología, el MIM de la patología 
 y el patrón de herencia.
