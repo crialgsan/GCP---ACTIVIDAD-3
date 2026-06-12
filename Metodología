@@ -38,3 +38,6 @@ descargamos las secuencias FASTA canonicas de la proteína en cada especie. El e
 rata y pez cebra; En el caso de la proteína MED12 solo la encontramos en 3 especies distintas: humano, ratón y pez cebra. Introducimos todas las secuencias FASTA de las 
 distintas especies de una misma proteína en Clustal y obtenemos dos alineamientos uno por cada proteína. Por último interpretamos los resultados.
 
+**Metodología del parrafo de variantes por delecion** -> Ariadna e Israel
+
+Para el análisis de las variantes por splicing lo primero que hacemos es obtener la secuencia de nucleótidos del gen LEPR a través de Ensembl
