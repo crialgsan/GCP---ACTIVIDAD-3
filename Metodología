@@ -21,7 +21,10 @@ Para completar la columna Genotipo: los archivos VCF no incluyen el campo GT de 
 Depth). En las variantes analizadas, la profundidad de lectura del alelo de referencia y del alelo alternativo fue aproximadamente equivalente, compatible con un 
 estado heterocigoto.
 
-*****COMPLETAR METODOLOGÍA FALTANTE --> ARIADNA******
+En cuanto a la pregunta tres, respondida en el apartado tabla_pregunta3, se utiliza Ensembl y NCBI para obtener la información acerca de la proteína que codifica 
+a los genes correspondientes, ID de la proteína, nomenclatura de la variante en p. y efecto de la variante en la protéina. Además, en esta tabla también se incluyen
+las predicciones de la patogenicidad de la variante en la proteína según los resultados de SIFT y Polyphen y una breve interpretación del efecto que podrían tener 
+estas variantes según el efecto que tienen y las predicciones. No obstante, más adelante se analizará más en detalle.
 
 Para identificar los dominios o regiones funcionales afectadas por las variantes missense, se consultó la base de datos UniProt y se utilizó la herramienta Feature
 Viewer:
