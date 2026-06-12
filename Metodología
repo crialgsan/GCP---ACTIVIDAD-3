@@ -40,4 +40,13 @@ distintas especies de una misma proteína en Clustal y obtenemos dos alineamient
 
 **Metodología del parrafo de variantes por delecion** -> Ariadna e Israel
 
-Para el análisis de las variantes por splicing lo primero que hacemos es obtener la secuencia de nucleótidos del gen LEPR a través de Ensembl
+Para el análisis de las variantes por splicing lo primero que hacemos es obtener la secuencia de aas normal y la secuencia de aas mutada alrededor de la variante: de 
+nucleótidos del gen LEPR (c.2396-1G>T) a través de Ensembl:
+  -Secuencia normal:
+    >1 dna:chromosome chromosome:GRCh38:1:65619877:65619977:1
+    CATTACTATTAATTTTGTATAAATGAGCCTTTTACGTATTTTTCTCCTCAGATCATTTTA
+    TCCCCATTGAGAAGTACCAGTTCAGTCTTTACCCAATATTT
+  -Secuencia mutada:
+    >1 dna:chromosome chromosome:GRCh38:1:65619877:65619977:1
+    CATTACTATTAATTTTGTATAAATGAGCCTTTTACGTATTTTTCTCCTCATATCATTTTA
+    TCCCCATTGAGAAGTACCAGTTCAGTCTTTACCCAATATTT
