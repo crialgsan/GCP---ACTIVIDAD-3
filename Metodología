@@ -57,4 +57,10 @@ región del intrón 17-18 (en minúsculas). Se generaron dos secuencias: Secuenc
 introduciendo la sustitución G>T correspondiente a la variante c.2396-1G>T. Ambas secuencias se introdujeron en el servidor web Cryp-Skip en formato FASTA y se 
 compararon los parámetros obtenidos, prestando especial atención a la probabilidad de activación de un sitio de splicing críptico (PCR-E), que permite estimar si la
 alteración favorece la utilización de un sitio alternativo o el salto del exón afectado.
+Con el fin de determinar las posibles consecuencias funcionales de la alteración del splicing, se identificó el exón potencialmente afectado por la variante 
+c.2396-1G>T del gen LEPR. A partir de la secuencia del exón obtenida en Ensembl, se localizó la región correspondiente en la secuencia proteica de LEPR. 
+Posteriormente, se consultó la entrada de la proteína LEPR humana en la base de datos UniProt (P48357). Mediante la herramienta Feature Viewer se identificaron los 
+dominios y regiones funcionales presentes en la proteína y se determinó si los aminoácidos codificados por el exón afectado se encontraban dentro de alguno de ellos.
+Finalmente, se registró el dominio proteico correspondiente y sus coordenadas aminoacídicas para evaluar qué región de la proteína podría verse afectada en caso de 
+producirse la alteración del splicing predicha por las herramientas bioinformáticas.
   
