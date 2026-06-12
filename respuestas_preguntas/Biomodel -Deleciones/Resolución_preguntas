@@ -1,4 +1,33 @@
 Se ha analizado la proteína LEPR, que es la que contenía una mutación debida a una deleción.
 En concreto, el tránscrito ENST00000349533.11 de LEPR-202. 
 La longitud total de aminoácidos de la protéina wt es de 1165 aa, como viene indicado en 
-Ensembl.
+Ensembl. Para calcular la longitud de la proteína truncada, se ha obtenido la traducción de la secuencia 
+mutada mediante BioModel. Vemos en LEPR_mutated como la deleción causa un codón de STOP prematuro, quedando
+una proteína truncada de 615 aminoácidos. Este resultado es consistente con la nomenclatura HGVS
+p.Ser597IlefsTer20,que indica un cambio del marco de lecrura a partir del aa 597 y la aparición de un codón
+de stop prematuro tras 20 aa.
+
+Tras la búsqueda en UniProt de los dominios de la proteína para analizar cúales se han perdido tras la mutación,
+teniendo en cuenta las posiciones que ocupan podemos sacr los siguientes resultados:
+
+| Dominio / Región                             | Posición (aa)| Conservado en proteína truncada (615 aa) |
+|----------------------------------------------|--------------|------------------------------------------|
+| Fibronectin type-III 1                       | 239-333      | Sí                                       |
+| Ig-like                                      | 331-429      | Sí                                       |
+| Región de unión a leptina                    | 467-484      | Sí                                       |
+| Fibronectin type-III 2                       | 539-634      | Parcialmente                             |
+| Motivo WSXWS                                 | 622-626      | No                                       |
+| Fibronectin type-III 3                       | 639-732      | No                                       |
+| Fibronectin type-III 4                       | 740-833      | No                                       |
+| Motivo Box1                                  | 871-879      | No                                       |
+| Región requerida para activación de JAK2     | 893-898      | No                                       |
+| Región requerida para fosforilación de STAT3 | 898-906      | No                                       |
+
+La proteína truncada conserva la región de unión a leptina, por lo que podría mantener parcialemnte la capacidad 
+de reconocer el ligando. También conserva Fibronectin type-III 1 y Ig-like. Sin embargo, pierde parte del dominio
+Fibronectin type-III 2; el motivo WSXWS, descrito en Uniprot como esencial para el correcto plegamiento de la 
+proteína, su transporte intracelular y su localización en la superficie celular. Además, la truncación elimina
+el dominio citoplasmático, que participa en la transducción de señal mediante la activación de JAK tirosina 
+quinasa y proteínas STAT. También se pierde el motivo Box1, necesatio para la interacción y/o activación de JAK.
+En consecuencia, aunque la proteína truncada fuese estable, es muy probable que no pudiera transmitir la señal 
+de leptiina al interior celular, por lo que sería una proteína no funcional.
