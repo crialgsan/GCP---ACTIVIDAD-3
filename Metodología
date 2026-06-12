@@ -38,7 +38,13 @@ descargamos las secuencias FASTA canonicas de la proteína en cada especie. El e
 rata y pez cebra; En el caso de la proteína MED12 solo la encontramos en 3 especies distintas: humano, ratón y pez cebra. Introducimos todas las secuencias FASTA de las 
 distintas especies de una misma proteína en Clustal y obtenemos dos alineamientos uno por cada proteína. Por último interpretamos los resultados.
 
-**Metodología del parrafo de variantes por delecion** -> Ariadna e Israel
+Para el análisis de las variantes causadas por delecciones hemos utilizado la herramienta biomodel, Sequence Manipulation Suite (SMS) y UniProt. Primero, hemos obtenido 
+la secuencia del tránscrito LEPR (causada por deleción) mediante Ensembl. Hemos decargado la CDS de la secuencia en formato FASTA, ya que es la secuencia codificante del
+ADN que se va a traducir a proteína y por tanto, la única que tiene importancia de analizar. Esta sería la secuencia wt. Para obtener la secuencia truncada hemos 
+introducido la secuencia en la herramienta SMS para que numere la secuencia y así poder ver cuál era el nucleótido en la posición 1790, que es donde estaba la deleción
+y eliminarlo para obtener la secuencia. Ya obteniendo las dos secuencias, wt y truncadas, hemos utilizado biomodel para traducir la secuencia ADN en proteína y compararlas.
+Por último, hemos utilizado UniProt para ver los dominios proteicos de LEPR y según la nueva longitud de aa de la proteína truncada ver que dominios se conservan y cuales no
+y las implicaciones a nivel funcional en la proteína.
 
 Para el análisis de las variantes por splicing lo primero que hacemos es obtener la secuencia de aas normal y la secuencia de aas mutada alrededor de la variante: de 
 nucleótidos del gen LEPR (c.2396-1G>T) a través de Ensembl. Después, analizamos ambas secuencias en BDGP splicing y obtenemos los scores.
