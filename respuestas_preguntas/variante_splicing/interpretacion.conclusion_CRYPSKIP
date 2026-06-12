@@ -1,0 +1,9 @@
+Para valorar qué mecanismo aberrante podría producirse, se analizó la secuencia con Cryp-Skip. El programa mostró una probabilidad baja de activación de un sitio 
+críptico (PCR-E = 0.11), lo que sugiere que es menos probable que se utilice un sitio alternativo cercano y más probable que ocurra salto del exón 17.
+
+Si el exón 17 se omite durante el procesamiento del pre-mRNA, la secuencia codificante quedaría alterada. Dado que el exón 17 tiene 96 bp, su pérdida podría modificar 
+la pauta de lectura o alterar la estructura proteica, dependiendo de cómo se empalmen los exones 16 y 18. En este contexto, la pérdida del sitio aceptor puede generar 
+un transcrito aberrante y potencialmente una proteína LEPR alterada o no funcional.
+
+Además, VEP clasifica esta variante como splice_acceptor_variant de impacto HIGH, lo que refuerza la predicción de que la alteración del splicing puede tener 
+consecuencias relevantes sobre el producto proteico.
