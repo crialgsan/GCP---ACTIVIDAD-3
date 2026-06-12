@@ -48,4 +48,13 @@ y las implicaciones a nivel funcional en la proteína.
 
 Para el análisis de las variantes por splicing lo primero que hacemos es obtener la secuencia de aas normal y la secuencia de aas mutada alrededor de la variante: de 
 nucleótidos del gen LEPR (c.2396-1G>T) a través de Ensembl. Después, analizamos ambas secuencias en BDGP splicing y obtenemos los scores.
+
+Para evaluar las posibles consecuencias de la variante de splicing LEPR c.2396-1G>T, se utilizó la herramienta Cryp-Skip, diseñada para predecir si una alteración 
+en los sitios de splicing favorece la activación de sitios crípticos o el salto de exones.
+En primer lugar, se identificó el exón afectado por la variante mediante Ensembl, determinándose que la variante se localiza en el sitio aceptor inmediatamente 
+anterior al exón 17. A continuación, se obtuvo una secuencia compuesta por: una región del intrón 16-17 (en minúsculas), el exón 17 completo (en mayúsculas), una 
+región del intrón 17-18 (en minúsculas). Se generaron dos secuencias: Secuencia normal (WT), conservando el nucleótido G del sitio aceptor, y Secuencia mutada (MUT),
+introduciendo la sustitución G>T correspondiente a la variante c.2396-1G>T. Ambas secuencias se introdujeron en el servidor web Cryp-Skip en formato FASTA y se 
+compararon los parámetros obtenidos, prestando especial atención a la probabilidad de activación de un sitio de splicing críptico (PCR-E), que permite estimar si la
+alteración favorece la utilización de un sitio alternativo o el salto del exón afectado.
   
