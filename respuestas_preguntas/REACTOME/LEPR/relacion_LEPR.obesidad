@@ -1,0 +1,13 @@
+El gen LEPR codifica el receptor de la leptina, una hormona producida por el tejido adiposo que participa en el control de la ingesta alimentaria y del balance 
+energético. Según la ruta "Signaling by Leptin" descrita en Reactome, la unión de la leptina a LEPR induce un cambio conformacional en el receptor que activa la 
+quinasa JAK2 asociada. A continuación, se desencadena una cascada de señalización que implica principalmente las vías JAK2/STAT3, PI3K/AKT y MAPK/ERK.
+
+La activación de STAT3 y STAT5 permite la regulación transcripcional de genes implicados en la sensación de saciedad y en la homeostasis energética. Por ello, la 
+correcta función de LEPR es esencial para que el organismo responda adecuadamente a las señales de leptina.
+
+Las mutaciones que afectan a LEPR pueden disminuir o abolir la capacidad del receptor para transmitir esta señal. Como consecuencia, el sistema nervioso central no 
+detecta correctamente las reservas energéticas del organismo, generando una sensación persistente de hambre, aumento de la ingesta alimentaria (hiperfagia) y 
+desarrollo de obesidad. 
+
+En nuestro caso, la variante c.2396-1G>T podría alterar el proceso de splicing de LEPR, provocando el salto del exón 17 y la pérdida de una región localizada dentro 
+del dominio Fibronectin type III. Esta alteración podría comprometer la función normal del receptor y reducir la eficacia de la señalización mediada por leptina.
