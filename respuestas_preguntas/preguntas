@@ -28,7 +28,7 @@ Para las mutaciones intrónicas deberéis analizar con BDGP splicing los scores 
 otro alternativo y cuál. Valora si sería conveniente emplear otras herramientas computacionales de análisis de splicing tales como ESE Finder o Cryp-Skip. Consultad 
 en la base de datos de Uniprot los dominios de la proteína que creéis que se perderían y en base a esta información, determinad si la proteína resultante sería 
 funcional (en caso de ser estable).
-- Respuesta en respuestas_preguntas > variante_splicing >: 
+  - Respuesta en respuestas_preguntas > variante_splicing >: 
     - BDPG > interpretacion.conclusion_BDGP
     - CRYPSKIP > interpretacion.conclusion_CRYPSKIP
     - UNIPROT > interpretacion_UNIPROT
@@ -39,3 +39,6 @@ y el patrón de herencia.
 
 5) Analizad en Kegg Pathways o en Reactome la ruta molecular en la que está implicada dicho gen y consultad en bibliografía científica contrastada el mecanismo 
 molecular por el cuál las mutaciones en ese gen producen obesidad.
+  - Respuesta en:
+      - respuestas_preguntas > REACTOME/LEPR
+      - bibliografia
