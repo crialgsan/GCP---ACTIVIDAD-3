@@ -63,4 +63,7 @@ Posteriormente, se consultó la entrada de la proteína LEPR humana en la base d
 dominios y regiones funcionales presentes en la proteína y se determinó si los aminoácidos codificados por el exón afectado se encontraban dentro de alguno de ellos.
 Finalmente, se registró el dominio proteico correspondiente y sus coordenadas aminoacídicas para evaluar qué región de la proteína podría verse afectada en caso de 
 producirse la alteración del splicing predicha por las herramientas bioinformáticas.
+
+Posteriormente, se ha consultado en la base de datos OMIM las posibles patologías asociadas a las variantes y el patrón de herencia. También hemos hecho uso de 
+ClinVar para saber si la variante ha sido observada anteriormente y si se considera patogénica, benigna o incierta.
   
