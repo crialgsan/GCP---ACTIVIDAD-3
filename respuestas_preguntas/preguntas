@@ -17,7 +17,7 @@ Para las mutaciones de cambio de nucleótido, indica la predicción de la patoge
 Además, realiza un alineamiento de secuencias ortólogas con Clustal Omega para evaluar la conservación del aminoácido afectado y consulta en la base de datos de 
 Uniprot el dominio de la proteína que se vería afectado. En el informe deberás incluir un apartado sobre interpretación de resultados indicando si el aminoácido está 
 conservado, qué dominio proteico se ve afectado y discute si predices alguna consecuencia en la proteína.
-  - Respuesta en respuestas_preguntas > clustal_omega > conclusiones_alineamiento
+  - Respuesta en respuestas_preguntas > SNP > clustal_omega > conclusiones_alineamiento
 
 Para las deleciones deberéis analizar la secuencia nueva de la proteína con la herramienta biomodel e indicar la longitud total de aminoácidos de la proteína wt y 
 de la proteína truncada (la resultante de la mutación). Consultad en la base de datos de Uniprot los dominios de la proteína que se han perdido y en base a esta 
