@@ -1,19 +1,19 @@
 1) El gen afectado y las coordenadas asociadas a la/s variante/s detectada/s según hg38.
-  - Respuesta en tabla_pregunta1.odt
+  - Respuesta en respuestas_preguntas > VEP > tabla_pregunta1
 
 
 2) La nomenclatura de la variante en c. (indicando el número del transcrito del NCBI o de Ensembl), tipo de variante identificada (SNP, deleción, inserción o indel)
 y si el individuo es homocigoto, heterocigoto o hemicigoto. Además, debéis indicar la frecuencia alélica de las variantes en la población en general (según gnomAD y 
 Proyecto 1000 Genomas) y si se tratan de mutaciones o polimorfismos.
-  - Respuesta en tabla_pregunta2.odt
+  - Respuesta en respuestas_preguntas > VEP > tabla_pregunta2
 
 
 3) Proteína que codifica dicho gen, ID de la proteína (según NCBI o Ensembl), la nomenclatura de la variante en p. (indicando el identificador de la proteína según 
 NCBI o Ensembl) y el efecto de la variante en la proteína (mutación sinónima, sin sentido, etc.).
-  - Respuesta en tabla_pregunta3.odt
+  - Respuesta en respuesas_preguntas > tabla_pregunta3
 
 Para las mutaciones de cambio de nucleótido, indica la predicción de la patogenicidad de la variante en la proteína (SIFT y PolyPhen).
-  - Respuesta en tabla_pregunta3.odt
+  - Respuesta en respuestas_preguntas > VEP > tabla_pregunta3.odt
 Además, realiza un alineamiento de secuencias ortólogas con Clustal Omega para evaluar la conservación del aminoácido afectado y consulta en la base de datos de 
 Uniprot el dominio de la proteína que se vería afectado. En el informe deberás incluir un apartado sobre interpretación de resultados indicando si el aminoácido está 
 conservado, qué dominio proteico se ve afectado y discute si predices alguna consecuencia en la proteína.
@@ -22,7 +22,7 @@ conservado, qué dominio proteico se ve afectado y discute si predices alguna co
 Para las deleciones deberéis analizar la secuencia nueva de la proteína con la herramienta biomodel e indicar la longitud total de aminoácidos de la proteína wt y 
 de la proteína truncada (la resultante de la mutación). Consultad en la base de datos de Uniprot los dominios de la proteína que se han perdido y en base a esta 
 información, determinad si la proteína resultante sería funcional (en caso de ser estable).
-
+  - Respuesta en respuestas_preguntas > Biomodel-Deleciones > Resolución_preguntas
 
 Para las mutaciones intrónicas deberéis analizar con BDGP splicing los scores para el splice site y analizar si predices que se pierde un splice site o si utilizará 
 otro alternativo y cuál. Valora si sería conveniente emplear otras herramientas computacionales de análisis de splicing tales como ESE Finder o Cryp-Skip. Consultad 
@@ -35,10 +35,10 @@ funcional (en caso de ser estable).
 
 4) Para cualquier tipo de mutación, consultad en la base de datos OMIM si existe una asociación de las variantes detectadas con una patología, el MIM de la patología 
 y el patrón de herencia.
-
+- Respuesta en respuestas_preguntas > OMIM > Patologias_asociadas
 
 5) Analizad en Kegg Pathways o en Reactome la ruta molecular en la que está implicada dicho gen y consultad en bibliografía científica contrastada el mecanismo 
 molecular por el cuál las mutaciones en ese gen producen obesidad.
   - Respuesta en:
-      - respuestas_preguntas > REACTOME/LEPR
+      - respuestas_preguntas > REACTOME/LEPR (ver todos los archivos)
       - bibliografia
